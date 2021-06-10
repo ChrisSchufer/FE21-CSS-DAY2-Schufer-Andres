@@ -1,0 +1,90 @@
+body{
+    margin-top: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+    border-radius: 10px;
+}
+
+ul li{
+    float: left;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 14px 60px;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #111;
+    border-radius: 2px;
+
+  }
+
+  .img{
+    text-align: center;
+  }
+
+.img > img{
+    margin-top: 60px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.container > div{
+    float: left;
+    width: 32%;
+    margin: 10px 15px 100px 0px;
+    text-align: center;
+}
+
+.footer{
+    clear: both;
+    text-align: center;
+    background-color: grey;
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer p a:hover{
+    background-color: black;
+    border-radius: 2px;
+    padding: 5px 5px 5px 5px;
+}
+
+.one{
+    background-color: rgb(70, 70, 70);
+    border-radius: 5px;
+}
+
+.two{
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.three{
+    background-color: rgb(70, 70, 70);
+    border-radius: 5px;
+}
+
+.container{
+    padding: 30px;
+}
+
+
