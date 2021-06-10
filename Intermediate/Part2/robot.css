@@ -1,0 +1,67 @@
+img {
+  width: 50px;
+}
+#face {
+  position: absolute;
+  width: 400px;
+  margin-left: 700px;
+  z-index: -1;
+}
+#eyes1{
+  width: 210px;
+  height: 90px;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 795px;
+  z-index: 1;
+}
+#eyes2{
+visibility: hidden;
+}
+#mouth1{
+  visibility: hidden;
+}
+#mouth2{
+  width: 170px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 700px;
+  z-index: 1;
+
+}
+#nose1{
+  
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 760px;
+  z-index: 2;
+
+}
+#nose2{
+  visibility: hidden;
+
+}
+#ears1{
+  visibility: hidden;
+}
+#ears2{
+  visibility: hidden;
+}
+#hair1{
+    width: 310px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 475px;
+  z-index: 1;
+
+}
+#hair2{
+  visibility: hidden;
+}
+#hat{
+  visibility: hidden;
+}
+
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2016/02/07/04/58/flag-1184117_960_720.jpg);
+}
